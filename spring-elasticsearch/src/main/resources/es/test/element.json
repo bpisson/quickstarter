@@ -1,0 +1,11 @@
+{
+  "element" : {
+  	"_id" : {
+  	  "path" : "id"
+  	},
+    "properties" : {
+      "id" : {"type" : "integer"},
+      "name" : {"type" : "string"}
+    }
+  }
+}
