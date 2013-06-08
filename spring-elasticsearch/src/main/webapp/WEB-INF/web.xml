@@ -5,8 +5,7 @@
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring-business-context.xml,
-		    /WEB-INF/spring-mvc-context.xml</param-value>
+		<param-value>/WEB-INF/spring-business-context.xml</param-value>
 	</context-param>
 
 	<welcome-file-list>
@@ -18,13 +17,13 @@
 	</listener>
 
 	<servlet>
-		<servlet-name>Spring MVC Servlet</servlet-name>
+		<servlet-name>springmvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>Spring MVC Servlet</servlet-name>
+		<servlet-name>springmvc</servlet-name>
 		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
 </web-app>
