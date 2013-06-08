@@ -52,7 +52,7 @@ public class DataService {
 			SearchResponse response = client.prepareSearch("test")
 					.setTypes("element")
 					.setSearchType(SearchType.DFS_QUERY_THEN_FETCH).setFrom(0)
-					.setSize(count).addSort("id", SortOrder.DESC).execute()
+					.setSize(count).execute()
 					.actionGet();
 
 			String[] elements = new String[response.getHits().getHits().length];
