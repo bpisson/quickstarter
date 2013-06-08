@@ -3,6 +3,12 @@ package eu.pisson.quickstarter.model;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Model object.
+ * 
+ * @author Bertrand Pisson
+ *
+ */
 public class Element {
 
 	@Getter

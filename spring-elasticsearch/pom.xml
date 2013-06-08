@@ -8,11 +8,11 @@
 	<packaging>war</packaging>
 	<name>Quickstarter for Spring MVC and Elasticsearch</name>
 	<properties>
-		<version.spring>3.2.1.RELEASE</version.spring>
+		<version.spring>3.2.2.RELEASE</version.spring>
 		<version.slf4j>1.6.4</version.slf4j>
 		<version.logback>1.0.1</version.logback>
 		<!-- Spring Third Party dependencies -->
-		<version.aopalliance>1.0</version.aopalliance>
+<!-- 		<version.aopalliance>1.0</version.aopalliance> -->
 		<!-- Third Party dependencies -->
 		<version.standard.taglibs>1.1.2</version.standard.taglibs>
 		<!-- <version.commons.logging>1.1.1</version.commons.logging> -->
@@ -30,11 +30,11 @@
 			<version>${version.spring}</version>
 		</dependency>
 		<!-- Third Party dependencies -->
-		<dependency>
-			<groupId>aopalliance</groupId>
-			<artifactId>aopalliance</artifactId>
-			<version>${version.aopalliance}</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>aopalliance</groupId> -->
+<!-- 			<artifactId>aopalliance</artifactId> -->
+<!-- 			<version>${version.aopalliance}</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
@@ -53,8 +53,8 @@
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -62,16 +62,6 @@
 			<artifactId>jsp-api</artifactId>
 			<version>2.2</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.quartz-scheduler</groupId>
-			<artifactId>quartz</artifactId>
-			<version>1.8.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator-annotation-processor</artifactId>
-			<version>4.1.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
