@@ -29,22 +29,22 @@
 			<artifactId>spring-web</artifactId>
 			<version>${version.spring}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${version.spring}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${version.spring}</version>
+		</dependency>
 		<!-- Third Party dependencies -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>aopalliance</groupId> -->
-<!-- 			<artifactId>aopalliance</artifactId> -->
-<!-- 			<version>${version.aopalliance}</version> -->
-<!-- 		</dependency> -->
 		<dependency>
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
 			<version>${version.standard.taglibs}</version>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>commons-logging</groupId> -->
-		<!-- <artifactId>commons-logging</artifactId> -->
-		<!-- <version>${version.commons.logging}</version> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>

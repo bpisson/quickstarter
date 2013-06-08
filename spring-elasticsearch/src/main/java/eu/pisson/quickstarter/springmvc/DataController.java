@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import eu.pisson.quickstarter.service.DataService;
 
+/**
+ * Spring MVC Controller
+ * 
+ * @author Bertrand Pisson
+ *
+ */
 @Controller
 public class DataController {
 
